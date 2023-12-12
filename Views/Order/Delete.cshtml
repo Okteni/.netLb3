@@ -1,0 +1,25 @@
+﻿@model Order
+
+<h1>Delete Order</h1>
+<p>Are you sure you want to delete this order?</p>
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="OrderId" />
+
+    <div>
+        <label asp-for="OrderId">Order:</label>
+        <span asp-for="OrderId">@Model.OrderId</span>
+    </div>
+
+    <div>
+        <label asp-for="CustomerId">Customer:</label>
+        <span asp-for="CustomerId">@Model.CustomerId</span>
+    </div>
+    <div>
+        <label asp-for="BookId">Book:</label>
+        <span asp-for="BookId">@Model.BookId</span>
+    </div>
+   
+    <div>
+        <input type="submit" value="Delete" />
+    </div>
+</form>

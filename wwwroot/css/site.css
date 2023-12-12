@@ -1,0 +1,179 @@
+/*html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}*/
+
+
+body {
+    background: #06b1b8;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 80%;
+    padding: 15px 10%;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: darkcyan;
+    border-bottom: 2px solid #000;
+}
+
+    /* Style for the logo or site name */
+    header .logo {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+
+
+    header nav a {
+        color: #000;
+        text-decoration: none;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+main {
+    width: 80%;
+    padding: 15px 10%;
+    margin: 50px 0;
+}
+
+
+
+/* Style for forms */
+form {
+    width: 50%;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #555;
+    }
+
+
+
+
+
+ Style for navigation links 
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+ Style for page content container 
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+ Style for table 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+nav {
+    margin: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+}
+
+    select:hover {
+        cursor: pointer;
+    }
+
+select, a {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+    a:hover {
+        background-color: #f0f0f0;
+    }

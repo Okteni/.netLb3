@@ -1,0 +1,30 @@
+﻿@model Customer
+
+<h1>Edit Customer</h1>
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="CustomerId" />
+
+    <label asp-for="FirstName">FirstName:</label>
+    <input asp-for="FirstName" />
+    <span asp-validation-for="FirstName"></span>
+
+    <label asp-for="LastName">LastName:</label>
+    <input asp-for="LastName" />
+    <span asp-validation-for="LastName"></span>
+
+    <label asp-for="Email">Email:</label>
+    <input asp-for="Email" />
+    <span asp-validation-for="Email"></span>
+
+    <label asp-for="Address">Address:</label>
+    <input asp-for="Address" />
+    <span asp-validation-for="Address"></span>
+
+    <label asp-for="PhoneNumber">PhoneNumber:</label>
+    <input asp-for="PhoneNumber" />
+    <span asp-validation-for="PhoneNumber"></span>
+    <div>
+        <input type="submit" value="Save Changes" />
+    </div>
+</form>
+

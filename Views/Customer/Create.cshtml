@@ -1,0 +1,27 @@
+﻿@model Customer
+
+<h1>Create a New Customer</h1>
+<form asp-action="Create" method="post">
+
+    <label asp-for="FirstName">FirstName:</label>
+    <input asp-for="FirstName" required />
+    <span asp-validation-for="FirstName"></span>
+
+    <label asp-for="LastName">LastName:</label>
+    <input asp-for="LastName" required />
+    <span asp-validation-for="LastName"></span>
+
+    <label asp-for="Email">Email:</label>
+    <input asp-for="Email" required />
+    <span asp-validation-for="Email"></span>
+
+    <label asp-for="Address">Address:</label>
+    <input asp-for="Address" required />
+    <span asp-validation-for="Address"></span>
+
+    <label asp-for="PhoneNumber">PhoneNumber:</label>
+    <input asp-for="PhoneNumber" required />
+    <span asp-validation-for="PhoneNumber"></span>
+
+    <button type="submit">Add Customer</button>
+</form>
